@@ -100,13 +100,13 @@ entities:
     category: diagnostic
     class: power
     dps:
-      - id: 19
+      - id: 20
         name: sensor
         type: integer
         class: measurement
         optional: true
         force: true
-        unit: W
+        unit: V
         mapping:
           - scale: 10
             constraint: switch
