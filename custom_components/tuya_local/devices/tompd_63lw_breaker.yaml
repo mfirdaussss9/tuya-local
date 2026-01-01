@@ -140,7 +140,7 @@ entities:
     class: power
     category: diagnostic
     dps:
-      - id: 118
+      - id: 6
         type: integer
         name: sensor
         class: measurement
