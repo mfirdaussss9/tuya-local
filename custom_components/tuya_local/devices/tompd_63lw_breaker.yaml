@@ -215,6 +215,7 @@ entities:
       - id: 118
         type: integer
         optional: true
+        force : true
         name: sensor
         unit: kW
         class: measurement
