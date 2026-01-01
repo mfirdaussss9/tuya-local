@@ -207,4 +207,4 @@ entities:
         unit: Hz
         class: measurement
         mapping:
-          - scale: 10
+          - scale: 1
