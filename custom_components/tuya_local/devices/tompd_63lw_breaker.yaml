@@ -119,7 +119,7 @@ entities:
       - id: 6
         type: base64
         name: sensor
-        optional: true
+        force: true
         unit: V
         mask: "FFFF000000000000"
         mapping:
@@ -131,7 +131,7 @@ entities:
       - id: 6
         type: base64
         name: sensor
-        optional: true
+        force: true
         unit: A
         mask: "0000FFFFFF000000"
         mapping:
@@ -143,7 +143,7 @@ entities:
       - id: 6
         type: base64
         name: sensor
-        optional: true
+        force: true
         unit: kW
         mask: "0000000000FFFFFF"
         mapping:
@@ -207,4 +207,4 @@ entities:
         unit: Hz
         class: measurement
         mapping:
-          - scale: 1
+          - scale: 10
