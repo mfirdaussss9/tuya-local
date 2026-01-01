@@ -140,12 +140,13 @@ entities:
     class: power
     category: diagnostic
     dps:
-      - id: 6
-        type: base64
+      - id: 118
+        type: integer
         name: sensor
+        class: measurement
         force: true
+        optional: true
         unit: kW
-        mask: "0000000000FFFFFF"
         mapping:
           - scale: 1000
   - entity: binary_sensor
