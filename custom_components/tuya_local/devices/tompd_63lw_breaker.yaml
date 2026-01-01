@@ -140,11 +140,10 @@ entities:
     class: power
     category: diagnostic
     dps:
-      - id: 6
+      - id: 118
         type: integer
         name: sensor
         class: measurement
-        force: true
         optional: true
         unit: kW
         mapping:
