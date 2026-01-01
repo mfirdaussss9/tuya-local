@@ -132,6 +132,7 @@ entities:
         type: base64
         name: sensor
         force: true
+        optional : true
         unit: A
         mask: "0000FFFFFF000000"
         mapping:
