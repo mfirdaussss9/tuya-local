@@ -208,3 +208,15 @@ entities:
         class: measurement
         mapping:
           - scale: 10
+  - entity: sensor
+    class: power
+    category: diagnostic
+    dps:
+      - id: 118
+        type: integer
+        optional: true
+        name: sensor
+        unit: kW
+        class: measurement
+        mapping:
+          - scale: 10
